@@ -1,0 +1,74 @@
+.vendor-inbox-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vendor-inbox-data{
+    display: flex;
+    column-gap: 30px;
+    padding: 10px;
+    /* border-bottom: 1px solid gray; */
+}
+.vendor-inbox-box-body{
+    margin-top: 20px;
+    width: 700px;
+    padding: 20px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* border: 1px solid black; */
+}
+.client-image-box img{
+    width: 100px;
+    border-radius: 50%;
+}
+.vendor-controler-action-button button{
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    /* background-color: transparent; */
+    border: none;
+}
+.vendor-controler-action-button{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    /* border-bottom:1px solid gray ; */
+    /* flex-direction: column; */
+}
+.vendor-control-call{
+    background-color: orange;
+    color: white;
+}
+.vendor-control-chart{
+    background-color: rgb(11, 11, 88);
+}
+.vendor-control-jobComlete{
+    background-color: rgb(31, 104, 205);
+    color: white;
+}
+.client-data-box{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.vendor-inbox-data{
+    display: flex;
+    justify-content: space-between;
+}
+.venor-status-box{
+    color: orange;
+    font-weight: bold;
+}
+.client-inbox-profile-data{
+    display: flex;
+    column-gap: 30px;
+    /* justify-content: space-around; */
+}
+.client-inbox-service-data{
+    font-size: 18px;
+    color: gray;
+}

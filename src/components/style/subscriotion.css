@@ -1,0 +1,358 @@
+.subscription-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 300px;
+}
+.subscriotion-card-head h1{
+    font-size: 70px;
+    text-transform: capitalize;
+}
+.subscriotion-card-head h3{
+    font-size: 30px;
+}
+
+.subscriotion-card-offer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.offer-lable ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.offer-count{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+/* basic */
+.subscriotion-basic-card{
+    /* border: 3px solid rgb(8, 126, 8); */
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(8, 126, 8, 0.12) 0px 2px 4px 0px, rgb(8, 126, 8, 0.32) 0px 2px 16px 0px;
+}
+.subscriotion-basic-card .subscriotion-card-head {
+    color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.subscriotion-basic-card-button{
+    display: flex;
+    justify-content: center;
+}
+.subscriotion-basic-card-button button{
+    width: 220px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+/* pro */
+
+.subscriotion-pro-card{
+    /* border: 3px solid rgb(39, 20, 185); */
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(39, 20, 185, 0.12) 0px 2px 4px 0px, rgb(39, 20, 185, 0.32) 0px 2px 16px 0px;
+}
+.subscriotion-pro-card .subscriotion-card-head {
+    color: rgb(39, 20, 185);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.subscriotion-pro-card-button{
+    display: flex;
+    justify-content: center;
+}
+.subscriotion-pro-card-button button{
+    width: 220px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color:rgb(39, 20, 185);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+/* premium */
+
+.subscriotion-premium-card{
+    /* border: 3px solid rgb(245, 22, 22); */
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(245, 22, 22, 0.12) 0px 2px 4px 0px, rgb(245, 22, 22, 0.32) 0px 2px 16px 0px;
+}
+.subscriotion-premium-card .subscriotion-card-head {
+    color: rgb(245, 22, 22);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.subscriotion-premium-card-button{
+    display: flex;
+    justify-content: center;
+}
+.subscriotion-premium-card-button button{
+    width: 220px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color:rgb(245, 22, 22);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Paymanet */
+
+.subscription-title{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+.subscription-title p{
+    font-weight: bold;
+    cursor: pointer;
+}
+.subscription-title b{
+    color: red;
+    cursor: pointer;
+}
+.subscription-bio{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 40px;
+    padding: 20px;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+.subscription-box-data{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.subscription-plan p{
+    text-transform: capitalize;
+    font-size: 60px;
+    font-weight: bold;
+    color: gray;
+    cursor: pointer;
+}
+.subscription-amount p{
+    text-transform: capitalize;
+    font-size: 90px;
+    font-weight: bold;
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+}
+.subscription-plan-offer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.plan-data-lable ul{
+    list-style:square;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    font-weight: bolder;
+    row-gap: 35px;
+    cursor: pointer;
+    color: white;
+}
+.plan-data-input{
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    font-weight: bolder;
+    row-gap: 35px;
+    color: gray;
+    cursor: pointer;
+}
+.subscription-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* payment box */
+.payment-sub-box{
+    margin-left: 900px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px;
+    width: 500px;
+}
+.title-payment{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.payment-innerbody{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.payment-lable{
+    font-size: 30px;
+    font-weight: bold;
+    color: gray;
+}
+.payment-email-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.payment-email-inpox input{
+    width: 400px;
+    text-indent: 30px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 3px solid grey;
+}
+.payment-email-inpox input:focus{
+    border: 3px solid rgb(5, 179, 242);
+}
+.payment-card-info-box{
+    display: flex;
+    flex-direction: column;
+}
+.payment-card-info-input{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.payment-card-info-input input{
+    margin-top: 10px;
+    width: 400px;
+    text-indent: 30px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 3px solid grey;
+}
+.payment-card-info-input input:focus{
+    border: 3px solid rgb(5, 179, 242);
+}
+.payment-card-year{
+    display: flex;
+    margin-top: 5px;
+}
+
+#year{
+    width: 200px;
+    text-indent: 30px;
+    height: 60px;
+    font-size: 25px;
+    /* border-radius: 10px; */
+    border-radius: 10px;
+    border: 3px solid grey;
+}
+#year:focus{
+    border: 3px solid rgb(5, 179, 242);
+}
+#cvv{
+    width: 200px;
+    text-indent: 30px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 10px;
+    /* border-radius: 10px; */
+    border: 3px solid grey;
+}
+#cvv:focus{
+    border: 3px solid rgb(5, 179, 242);
+}
+.payment-card-country-selecter{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.payment-card-country-selecter select{
+    width: 400px;
+    height: 60px;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-indent: 30px;
+    border-radius: 10px;
+}
+.payment-card-country-selecter select:focus{
+    border: 3px solid rgb(5, 179, 242);
+}
+.payment-button{
+    display: flex;
+    margin-left: 100px;
+}
+.payment-button button{
+    border: none;
+    font-size: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(15, 15, 205);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.contioner-1{
+    width: 100%;
+    height: 2000px;
+    padding-top: 30px;
+    background: rgb(103,185,227);
+    background: linear-gradient(180deg, rgba(103,185,227,1) 3%, rgba(78,182,224,1) 36%, rgba(87,78,224,1) 94%);
+}
+
+.form-errors{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    /* font-family:'Times New Roman', Times, serif; */
+    margin-top: 5px;
+}
+.otp-lavles{
+    font-size: 30px;
+}

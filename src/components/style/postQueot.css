@@ -1,0 +1,214 @@
+.q-title h2{
+    font-size: 40px;
+    font-weight: bolder;
+    /* color: rgb(15, 61, 200); */
+    text-align: center;
+}
+.q-title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 11, 115);
+    color: white;
+    margin-top: 30px;
+    /* width: 800px; */
+}
+.box{
+    padding: 30px;
+}
+.box-border{
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+    padding: 30px;
+    width: 1000px;
+}
+
+.box-continer{
+    display: flex;
+    justify-content: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+.item-add-box{
+    display: flex;
+    column-gap: 20px;
+}
+
+.item-add-box label p{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.item-add-box input{
+    width: 200px;
+    height: 30px;
+    text-indent: 20px;
+    border-color: lightgray;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.add-button-box{
+    margin-top: 25px;
+}
+
+.add-button-box >button{
+    width: 50px;
+    padding: 2px;
+    text-indent: 0;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 5px;
+    background-color: rgb(18, 174, 222);
+    color: white;
+    border: none;
+}
+.service-name{
+    display: flex;
+    flex-direction: column;
+    row-gap:10px ;
+}
+.vendor-name{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.from-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.service-name p{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.s-name-data p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.vendor-name p{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.table-form{
+    display: flex;
+}
+
+table{
+    width: 650px;
+}
+thead{
+    font-size: 20px;
+}
+td{
+    font-size: 20px;
+    font-weight: 800;   
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse:collapse ;
+    padding: 5px;
+}
+td{
+    text-align: center;
+}
+.form-button{
+    display: flex;
+    justify-content: center;
+}
+.form-submit-button>input{
+    padding: 12px;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: rgb(18, 170, 91);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.v-name-input input{
+    width: 200px;
+    height: 30px;
+    text-indent: 20px;
+    border-color: lightgray;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.reslut_box{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.reslut_button > button{
+    width: 120px;
+    padding: 8px;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(15, 61, 200);
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.reslut_data_box span{
+    font-size: 20px;
+    font-weight: bolder;
+    word-spacing: 3px;
+}
+.reslut_data_box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+/* .reslut_data_box span{
+    color: green;
+} */
+
+.box-items{
+    background-color: lightgray;
+}
+
+thead{
+    background-color: rgb(11, 11, 142);
+    color: white;
+}
+.edbutton button{
+    font-size: 20px;
+    width:100px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
+.edbutton{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    /* flex-direction: column; */
+}
+.edbutton .edit{
+    background-color: rgb(17, 17, 132);
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+}
+.edbutton .delect{
+    background-color: rgb(241, 11, 11);
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+}

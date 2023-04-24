@@ -1,0 +1,271 @@
+.vendorprofile-box {
+    background-image: url('../../image/10.webp');
+    background-color: aqua;
+    /* border: 1px solid black; */
+    /* width: 200px; */
+    width: 520px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+
+}
+
+.vendor-image img {
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.client-body {
+    display: flex;
+    justify-content: center;
+}
+
+.vendor-box {
+    margin-top: 20px;
+    width: 600px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+
+.vendor-name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.vendor-address {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.vendor-address-companyNames{
+    font-size: 30px;
+}
+
+.vendor-address-1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    word-spacing: 3px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.vendor-action-button {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+    /* margin-bottom: 20px; */
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.vendor-action-button button {
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.vendor-call-action-button button {
+    background-color: orangered;
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.vendor-chart-action-button button {
+    background-color: blue;
+    color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.vendor-data {
+    margin-top:20px;
+    border-bottom: 1px solid gray;
+}
+
+.vendor-chart {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.vendor-chart-innerbody {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.chart2 {
+    background-color: rgb(51, 51, 122);
+    /* padding: 10px;
+     */
+    width: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.message {
+    display: flex;
+    flex-direction: column;
+    /* / row-gap: 5px; /
+    / justify-content: center; /
+    / align-items: center; / */
+    width: 550px;
+    height: 430px;
+    /* / padding: 10px; / */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* / background-color: rgb(238, 159, 14); / */
+  }
+  .messagebox {
+    width: 510px;
+    height: 40px;
+    display: flex;
+    /* / column-gap: 100px; / */
+    justify-content: space-between;
+  
+    /* / flex-direction: ; / */
+    /* / border: 1px solid black; / */
+  }
+  .message-border-box {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px;
+    padding-bottom: 15px;
+  }
+  .messagesend {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 50px;
+  
+    /* / border: 1px solid yellow; / */
+  }
+  .sendmessage {
+    width: 430px;
+    height: 40px;
+    font-size: 15px;
+    display: flex;
+  
+    text-indent: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+    border: 1px solid #dddddd;
+  }
+  .send {
+    width: 100px;
+    height: 42px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: none;
+    background-color: green;
+    border: none;
+  }
+  .clientmsg {
+    border: 1px solid black;
+    text-align: center;
+    /* / margin-top: 5px; / */
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(24, 44, 163);
+    border: none;
+    color: white;
+  }
+  .vendormsg {
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 20px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(189, 178, 22);
+    border: none;
+    color: white;
+  }
+  
+  .message-box {
+    display: flex;
+    flex-direction: column;
+    /* / justify-content: center; /
+    / align-items: center; / */
+    padding: 5px;
+    /* width: 890px; */
+    /* height: 500px; */
+    /* / border: 1px solid black; / */
+  }
+  .client-meg-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* / row-gap: -30px; / */
+  }
+  .vendor-meg-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* .client-meg-date {
+    font-size: 10px;
+  } */
+  .chart-title {
+    font-size: 16px;
+    color: white;
+    background-color: rgb(29, 29, 207);
+    text-indent: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    /* / border: 1px solid black; / */
+    /* width: 200px;
+    height: 50px; */
+  }
+  .message-body-box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+  }
+  .contact-moblie-number{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+  }
+  .contact-title{
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+  }
+.contact-data{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.contact-sub-contdunt{
+  font-size: 18px;
+  font-weight: bold;
+}

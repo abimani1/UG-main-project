@@ -1,0 +1,245 @@
+.home-box1{
+    display: flex;
+    column-gap: 10px;
+    /* justify-content: space-between; */
+}
+.lead-box{
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 30px;
+    width: 400px;
+    padding: 20px;
+    padding-bottom: 70px;
+}
+.title-sum>p{
+font-weight: 700;
+color: gray;
+cursor:default;
+}
+.title-sum{
+    margin-top: 10px;
+}
+.lead-title{
+    display: flex;
+    justify-content: space-between;
+}
+.title-sum-tw>ul{
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+
+}
+.title-sum-tw ul li{
+    color: gray;
+    padding: 5px;
+}
+.title-sum-tw ul li p{
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.title-sum-tw ul li:hover{
+    /* padding: 3px; */
+    color: red;
+    border-bottom: 5px solid red;
+}
+.title-sum-tw{
+    /* border: 1px solid black; */
+    width: 130px;
+    height: 30px;
+}
+.summary-deashbord{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.totl-lead{
+    /* border: 1px solid black; */
+    width: 170px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.lead-number{
+    font-size: 16px;
+    /* white-space: 10px; */
+    /* font-weight: bolder; */
+    color: white;
+}
+.lead-data{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 7px;
+}
+
+.appoin-color{
+    background-color: rgb(31, 180, 160);
+}
+.home-box{
+    display: flex;
+    justify-content: space-evenly;
+    /* column-gap: 20px; */
+}
+.home-box1{
+    display: flex;
+    justify-content:space-evenly ;
+}
+
+/* poastAds */
+.postAds-innerbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+.postAds-box{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    /* border: 1px solid black; */
+    margin-top:30px ;
+    width: 400px;
+}
+.postAds-border{
+    /* border: 1px solid black; */
+    padding: 20px;
+    background-color: rgb(249, 224, 2,0.5);
+}
+.postAds-title{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.postAds-content{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.postAds-button button{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 200px;
+    cursor: pointer;
+}
+/* profile */
+.profile-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.profile-box-1{
+    margin-top:30px ;
+    padding: 40px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 400px;
+}
+.profile-title p{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.progress{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.progress-number p{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(0, 47, 166);
+}
+.progress-number p span{
+    font-size: 17px;
+    color: rgb(0, 47, 166);
+    font-weight: bolder;
+}
+.progress-bar{
+    font-size: 16px;
+    /* font-weight: 600; */
+    letter-spacing: 1px;
+    text-transform:uppercase;
+    color: gray;
+}
+.progress-button{
+    text-align: right;
+}
+.improv-innerbox{
+    display: flex;
+    flex-direction: column;
+}
+.improve-button{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+.improv-box{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 20px;
+}
+.improve-title{
+    padding: 20px;
+    color: gray;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(116, 115, 115,0.5) ;
+}
+.improve-data{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.improve-sub-title{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.improve-content{
+    color: gray;
+    font-weight: 400;
+}
+.upgradePack-box{
+    background-color: rgb(10, 10, 139);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 5px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.upgradePack-title{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+.upgrade-sub-box{
+    word-spacing: 2px;
+    font-size: 17px;
+}
+.upgrade-button button{
+    width: 150px;
+    font-size: 20px;
+    color: red;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.postUp{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}

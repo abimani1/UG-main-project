@@ -1,0 +1,69 @@
+.dashbord-title{
+    font-size: 30px;
+    font-weight: lighter;
+    /* border: 1px solid black; */
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 3px solid red;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.dashbord-body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+.dashbord-box{
+    margin-top: 20px;
+    padding: 20px;
+    width: 1000px;
+    margin-left: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.service-data-dashbord{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 20px;
+}
+.vendor-dashbord-service-data{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.dashbord-service-name{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+.vendor-dashbord-labe-box{
+    font-size: 23px;
+    font-weight: bold;
+}
+.dashbord-vendor-name{
+    color:gray;
+    font-weight: bold;
+}
+.dashbord-box-data{
+    display: flex;
+    justify-content: space-between;
+}
+.dashbord-status-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.dashbord-action-report-button button{
+    width: 100px;
+    border: none;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+  

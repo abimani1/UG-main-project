@@ -1,0 +1,61 @@
+.title-qut{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 60px;
+}
+.title-qut>label{
+    color:rgb(220, 101, 10);
+    border-bottom: 10px solid rgb(182, 200, 19) ;
+    border-bottom-left-radius: 20px;
+}
+.box-1{
+    
+    margin-bottom: 30px;
+}
+.box-border-qut{
+    width: 900px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.box-qut{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.innerbox{
+    display: flex;
+    justify-content: space-between;
+}
+.service-lable,.Client-lable {
+    color: rgb(9, 9, 9);
+    font-size: 25px;
+    font-weight: bold;
+}
+.service-data,.client-data{
+    font-size: 18px;
+    color: grey;
+    font-weight: bolder;
+}
+.service-box,.Client-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.view-box>button{
+    width: 100px;
+    padding: 3px;
+    border: none;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.Link{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+}

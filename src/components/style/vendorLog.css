@@ -1,0 +1,116 @@
+.vendor-log-title{
+    display: flex;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.vendor-log b{
+ color: black;   
+}
+.vendor-innerbody{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.vendor-log-card{
+    height: 500px;
+    background-image: url('D:/Internship-project/myapp/client/src/image/vendors.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: rgb(31, 27, 27,o.5);
+    filter: grayscale(-10px);
+    background-position: center;
+    object-fit: fill;
+    /* border: 1px solid black; */
+    
+}
+.vendor-log-form{
+    background-color: white;
+    border-radius: 5px;
+}
+.ventor-log-text{
+    color: white;
+}
+.ventor-log-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    justify-content: center;
+}
+.log-text-top p{
+    font-size: 45px;
+    font-weight: bold;
+}
+.log-text-down p{
+    font-size: 25px;
+}
+
+/* form */
+.vendor-form{
+    width: 400px;
+    padding: 10px;
+}
+.form-vendor-innerbodys{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.vendor-form-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: orange;
+}
+.vendor-form-lable{
+    font-size: 25px;
+    font-weight:bold ;
+    text-transform: capitalize;
+    color: gray;
+}
+.vendor-form-input input{
+    width: 300px;
+    height: 50px;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    text-indent: 20px;
+    font-size: 20px;
+}
+.vendor-service{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.vendor-service select{
+    width: 300px;
+    height: 50px;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    text-indent: 20px;
+    font-size: 20px;
+}
+.vendor-moblieNumber{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.vendor-city{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.vendor-button input{
+    width: 240px;
+    background-color: rgb(216, 21, 21);
+    border: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    padding: 2px;
+}

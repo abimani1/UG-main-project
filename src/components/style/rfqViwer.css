@@ -1,0 +1,153 @@
+.body-view-quot{
+    background-color: lightgray;
+}
+
+.card_row{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.card_item{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    flex-wrap: nowrap;
+    width: 75%;
+}
+
+.card_inner_body{
+    width: 1000px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+    padding: 10px;
+    /* background-color:blueviolet;
+    color: white; */
+}
+
+.card_outer_body{
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .servies_name{
+
+} */
+
+.servies_iden{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.servies{
+    text-indent: 20px;
+    font-size: 18px;
+}
+
+/* .client_name{
+    font-size: 20px;
+    font-weight: bold;
+} */
+
+.client_lable{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.client{
+    text-indent: 20px;
+    font-size: 18px;
+}
+
+.description_lable{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description_data{
+    text-indent: 20px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.price_lable{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price_amount{
+    text-indent: 20px;
+}
+
+.controller_view_box{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-content: center;
+    row-gap: 20px;
+}
+
+.controller_view_box p{
+    font-size: large;
+    font-weight: 900;
+    cursor:default;
+}
+.controller_button button{
+    font-size: 18px;
+    background-color: orange;
+    color:white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.link_button{
+    text-decoration: none;
+    color: white;
+}
+.controller_view_box_vendor
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.controller_button_vendor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controller_button_vendor > button{
+    padding: 10px 25px 10px 25px;
+    background-color: orange;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+}
+.rfq-post-itle{
+    display: flex;
+    align-content: baseline;
+    margin-top: 30px;
+    margin-left: 270px;
+}
+.rfq-post-title-name{
+    background-color: rgb(5, 5, 107);
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius:10px ;
+}
+.table-head{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 5px;
+    width: 900px;
+}
