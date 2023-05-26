@@ -1,3 +1,10 @@
+**UG Main Project**
+Front-End          :HTML,CSS & javaScript
+Front-End-Fram-Work: React js
+Back-End           :Node js
+Back-End-frame-Work:express
+Database           :MongoDB
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
